@@ -1,0 +1,13 @@
+{
+  "name": "01-installation-example",
+  "version": "1.0.0",
+  "description": "Webpack 安装示例",
+  "scripts": {
+    "check": "webpack --version",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

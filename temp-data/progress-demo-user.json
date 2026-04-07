@@ -1,0 +1,24 @@
+{
+  "userId": "demo-user",
+  "completedLessons": [
+    "01-basics/01-installation",
+    "01-basics/02-first-project"
+  ],
+  "completedProjects": [],
+  "moduleProgress": {
+    "01-basics": {
+      "completedCount": 2,
+      "totalCount": 8,
+      "percentage": 25
+    }
+  },
+  "overallPercentage": 25,
+  "studyTime": {
+    "01-basics": 240
+  },
+  "lastStudyDate": "2026-03-02T16:51:51.122Z",
+  "bookmarks": [
+    "01-basics/01-installation",
+    "02-configuration/01-config-structure"
+  ]
+}

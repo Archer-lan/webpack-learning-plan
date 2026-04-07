@@ -1,0 +1,13 @@
+{
+  "name": "03-entry-output-example",
+  "version": "1.0.0",
+  "description": "Entry 和 Output 配置示例",
+  "scripts": {
+    "build:single": "webpack --config webpack.single.js",
+    "build:multi": "webpack --config webpack.multi.js"
+  },
+  "devDependencies": {
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

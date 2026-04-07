@@ -1,0 +1,28 @@
+.card {
+  max-width: 400px;
+  width: 100%;
+  background-color: white;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.name {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 1.2em;
+  color: #667eea;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.bio {
+  font-size: 1em;
+  color: #666;
+  line-height: 1.6;
+}

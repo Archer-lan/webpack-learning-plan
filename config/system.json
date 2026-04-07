@@ -1,0 +1,100 @@
+{
+  "version": "1.0.0",
+  "name": "Webpack Learning System",
+  "description": "完整的 Webpack 学习系统",
+  
+  "assessment": {
+    "passingScore": 70,
+    "defaultTimeLimit": 45,
+    "retryAllowed": true,
+    "maxRetries": 3,
+    "showCorrectAnswers": true,
+    "showExplanations": true
+  },
+  
+  "progress": {
+    "trackingEnabled": true,
+    "saveInterval": 5000,
+    "storageType": "localStorage",
+    "backupEnabled": true
+  },
+  
+  "content": {
+    "defaultLanguage": "zh-CN",
+    "supportedLanguages": ["zh-CN", "en-US"],
+    "markdownEngine": "marked",
+    "syntaxHighlighting": true,
+    "codeTheme": "github"
+  },
+  
+  "features": {
+    "bookmarks": true,
+    "notes": true,
+    "search": true,
+    "export": true,
+    "offline": true,
+    "darkMode": true
+  },
+  
+  "performance": {
+    "maxAssetSize": 512000,
+    "maxEntrypointSize": 512000,
+    "hints": "warning"
+  },
+  
+  "paths": {
+    "modules": "./modules",
+    "projects": "./projects",
+    "resources": "./resources",
+    "assessments": "./assessments",
+    "data": "./data"
+  },
+  
+  "modules": [
+    {
+      "id": "01-basics",
+      "name": "基础模块",
+      "enabled": true,
+      "order": 1
+    },
+    {
+      "id": "02-configuration",
+      "name": "配置模块",
+      "enabled": true,
+      "order": 2
+    },
+    {
+      "id": "03-principles",
+      "name": "原理模块",
+      "enabled": true,
+      "order": 3
+    }
+  ],
+  
+  "ui": {
+    "theme": "light",
+    "fontSize": "medium",
+    "codeFont": "Monaco, Consolas, monospace",
+    "lineHeight": 1.6
+  },
+  
+  "notifications": {
+    "enabled": true,
+    "showProgress": true,
+    "showAchievements": true,
+    "showReminders": true
+  },
+  
+  "analytics": {
+    "enabled": false,
+    "trackProgress": true,
+    "trackTime": true,
+    "trackQuizResults": true
+  },
+  
+  "support": {
+    "email": "support@webpack-learning.com",
+    "documentation": "https://webpack.js.org/",
+    "community": "https://github.com/webpack/webpack/discussions"
+  }
+}

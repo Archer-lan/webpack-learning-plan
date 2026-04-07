@@ -1,0 +1,147 @@
+{
+  "id": "config-module-quiz",
+  "moduleId": "02-configuration",
+  "title": "配置模块测试",
+  "passingScore": 70,
+  "timeLimit": 45,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "webpack.config.js 文件默认导出的是什么类型？",
+      "options": [
+        "一个配置对象",
+        "一个配置数组",
+        "一个返回配置的函数",
+        "以上都可以"
+      ],
+      "correctAnswer": "以上都可以",
+      "explanation": "webpack.config.js 可以导出一个配置对象、配置数组（多配置）或返回配置的函数（动态配置）。",
+      "points": 5,
+      "relatedLesson": "01-config-structure"
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "css-loader 和 style-loader 的正确使用顺序是？",
+      "options": [
+        "['css-loader', 'style-loader']",
+        "['style-loader', 'css-loader']",
+        "顺序无所谓",
+        "只需要其中一个"
+      ],
+      "correctAnswer": "['style-loader', 'css-loader']",
+      "explanation": "loader 的执行顺序是从右到左（或从下到上），所以应该先用 css-loader 解析 CSS，再用 style-loader 将样式注入到 DOM。",
+      "points": 5,
+      "relatedLesson": "02-loaders"
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "HtmlWebpackPlugin 的主要作用是什么？",
+      "options": [
+        "压缩 HTML 文件",
+        "自动生成 HTML 文件并注入打包后的资源",
+        "解析 HTML 中的图片路径",
+        "将 HTML 转换为 JavaScript"
+      ],
+      "correctAnswer": "自动生成 HTML 文件并注入打包后的资源",
+      "explanation": "HtmlWebpackPlugin 会自动生成 HTML 文件，并将打包后的 JS、CSS 等资源自动注入到 HTML 中。",
+      "points": 5,
+      "relatedLesson": "03-plugins"
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "output.publicPath 的作用是什么？",
+      "options": [
+        "指定打包文件的输出目录",
+        "指定资源的公共路径（CDN 地址等）",
+        "指定入口文件的路径",
+        "指定 node_modules 的路径"
+      ],
+      "correctAnswer": "指定资源的公共路径（CDN 地址等）",
+      "explanation": "publicPath 用于指定资源的公共路径，常用于配置 CDN 地址或部署路径。",
+      "points": 5,
+      "relatedLesson": "04-entry-output"
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "resolve.alias 的作用是什么？",
+      "options": [
+        "配置模块别名，简化导入路径",
+        "配置文件扩展名",
+        "配置模块搜索目录",
+        "配置外部依赖"
+      ],
+      "correctAnswer": "配置模块别名，简化导入路径",
+      "explanation": "resolve.alias 用于配置模块别名，可以简化导入路径，例如用 '@' 代替 'src' 目录。",
+      "points": 5,
+      "relatedLesson": "05-resolve"
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "devServer.hot 设置为 true 可以启用模块热替换（HMR）。",
+      "correctAnswer": "true",
+      "explanation": "devServer.hot: true 会启用 webpack 的模块热替换功能。",
+      "points": 5,
+      "relatedLesson": "06-devserver"
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "optimization.splitChunks 的主要作用是什么？",
+      "options": [
+        "代码压缩",
+        "代码分割，提取公共模块",
+        "Tree Shaking",
+        "作用域提升"
+      ],
+      "correctAnswer": "代码分割，提取公共模块",
+      "explanation": "splitChunks 用于配置代码分割策略，可以将公共模块提取到单独的 chunk 中。",
+      "points": 5,
+      "relatedLesson": "07-optimization"
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "开发环境推荐使用哪种 source map？",
+      "options": [
+        "eval-source-map",
+        "source-map",
+        "cheap-module-source-map",
+        "nosources-source-map"
+      ],
+      "correctAnswer": "eval-source-map",
+      "explanation": "开发环境推荐使用 eval-source-map，它提供完整的 source map 信息，构建速度也较快。",
+      "points": 5,
+      "relatedLesson": "08-sourcemap"
+    },
+    {
+      "id": "q9",
+      "type": "true-false",
+      "question": "babel-loader 必须配合 @babel/preset-env 才能工作。",
+      "correctAnswer": "false",
+      "explanation": "babel-loader 可以单独使用，但通常需要配合 preset 或 plugin 才能实现具体的转换功能。",
+      "points": 5,
+      "relatedLesson": "02-loaders"
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "MiniCssExtractPlugin 的作用是什么？",
+      "options": [
+        "压缩 CSS 文件",
+        "将 CSS 提取到单独的文件",
+        "解析 CSS 中的 @import",
+        "自动添加 CSS 前缀"
+      ],
+      "correctAnswer": "将 CSS 提取到单独的文件",
+      "explanation": "MiniCssExtractPlugin 用于将 CSS 从 JS 中提取到单独的文件，适用于生产环境。",
+      "points": 5,
+      "relatedLesson": "03-plugins"
+    }
+  ]
+}

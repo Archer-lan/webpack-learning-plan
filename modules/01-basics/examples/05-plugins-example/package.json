@@ -1,0 +1,15 @@
+{
+  "name": "05-plugins-example",
+  "version": "1.0.0",
+  "description": "Plugin 使用示例",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "css-loader": "^6.8.1"
+  }
+}

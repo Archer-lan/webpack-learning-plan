@@ -1,0 +1,180 @@
+{
+  "id": "webpack-learning-path",
+  "name": "Webpack 完整学习路径",
+  "description": "从基础到原理的递进式学习路径",
+  "totalHours": 60,
+  "modules": [
+    {
+      "moduleId": "01-basics",
+      "order": 1,
+      "required": true,
+      "estimatedHours": 15,
+      "prerequisites": []
+    },
+    {
+      "moduleId": "02-configuration",
+      "order": 2,
+      "required": true,
+      "estimatedHours": 20,
+      "prerequisites": ["01-basics"]
+    },
+    {
+      "moduleId": "03-principles",
+      "order": 3,
+      "required": true,
+      "estimatedHours": 25,
+      "prerequisites": ["01-basics", "02-configuration"]
+    }
+  ],
+  "milestones": [
+    {
+      "name": "基础入门",
+      "description": "掌握 Webpack 基本使用方法",
+      "requiredLessons": [
+        "01-basics/01-installation",
+        "01-basics/02-first-project",
+        "01-basics/03-entry-output",
+        "01-basics/04-loaders",
+        "01-basics/05-plugins"
+      ],
+      "requiredProjects": [
+        "01-basics/01-simple-js-bundle"
+      ]
+    },
+    {
+      "name": "配置掌握",
+      "description": "熟练配置各种 Webpack 选项",
+      "requiredLessons": [
+        "02-configuration/01-config-structure",
+        "02-configuration/02-loaders",
+        "02-configuration/03-plugins"
+      ],
+      "requiredProjects": [
+        "02-configuration/01-react-config",
+        "02-configuration/02-vue-config"
+      ]
+    },
+    {
+      "name": "原理理解",
+      "description": "深入理解 Webpack 工作原理",
+      "requiredLessons": [
+        "03-principles/01-build-process",
+        "03-principles/02-compiler",
+        "03-principles/03-loader-mechanism"
+      ],
+      "requiredProjects": [
+        "03-principles/01-markdown-loader",
+        "03-principles/02-filelist-plugin"
+      ]
+    }
+  ],
+  "learningPlans": [
+    {
+      "name": "快速入门（2 周）",
+      "description": "适合有前端基础的开发者快速上手",
+      "totalWeeks": 2,
+      "hoursPerWeek": 10,
+      "schedule": [
+        {
+          "week": 1,
+          "focus": "基础模块",
+          "topics": ["安装配置", "基本概念", "Loader 和 Plugin"]
+        },
+        {
+          "week": 2,
+          "focus": "配置模块",
+          "topics": ["配置文件结构", "常用配置", "实战项目"]
+        }
+      ]
+    },
+    {
+      "name": "系统学习（4 周）",
+      "description": "系统学习 Webpack 的各个方面",
+      "totalWeeks": 4,
+      "hoursPerWeek": 15,
+      "schedule": [
+        {
+          "week": 1,
+          "focus": "基础模块",
+          "topics": ["Webpack 基础", "资源处理", "开发服务器"]
+        },
+        {
+          "week": 2,
+          "focus": "配置模块（上）",
+          "topics": ["配置文件", "Loader 配置", "Plugin 配置"]
+        },
+        {
+          "week": 3,
+          "focus": "配置模块（下）",
+          "topics": ["高级配置", "优化配置", "实战项目"]
+        },
+        {
+          "week": 4,
+          "focus": "原理模块",
+          "topics": ["构建流程", "Compiler", "自定义开发"]
+        }
+      ]
+    },
+    {
+      "name": "深入精通（8 周）",
+      "description": "深入学习 Webpack 原理和高级特性",
+      "totalWeeks": 8,
+      "hoursPerWeek": 8,
+      "schedule": [
+        {
+          "week": 1,
+          "focus": "基础模块（上）",
+          "topics": ["安装配置", "第一个项目", "Entry 和 Output"]
+        },
+        {
+          "week": 2,
+          "focus": "基础模块（下）",
+          "topics": ["Loader", "Plugin", "开发服务器", "HMR"]
+        },
+        {
+          "week": 3,
+          "focus": "配置模块（上）",
+          "topics": ["配置文件结构", "Loader 详解", "Plugin 详解"]
+        },
+        {
+          "week": 4,
+          "focus": "配置模块（中）",
+          "topics": ["Entry/Output", "Resolve", "DevServer"]
+        },
+        {
+          "week": 5,
+          "focus": "配置模块（下）",
+          "topics": ["Optimization", "Source Map", "实战项目"]
+        },
+        {
+          "week": 6,
+          "focus": "原理模块（上）",
+          "topics": ["构建流程", "Compiler", "Compilation"]
+        },
+        {
+          "week": 7,
+          "focus": "原理模块（中）",
+          "topics": ["Loader 机制", "Plugin 机制", "依赖图"]
+        },
+        {
+          "week": 8,
+          "focus": "原理模块（下）",
+          "topics": ["HMR 原理", "自定义开发", "综合项目"]
+        }
+      ]
+    }
+  ],
+  "recommendedDailyHours": {
+    "beginner": 2,
+    "intermediate": 3,
+    "advanced": 4
+  },
+  "tips": [
+    "建议按照模块顺序学习，不要跳过基础内容",
+    "每学完一个知识点，立即动手实践",
+    "遇到问题先查阅官方文档，再搜索社区解决方案",
+    "完成实践项目是巩固知识的最好方式",
+    "定期复习已学内容，加深理解",
+    "参与社区讨论，分享学习心得"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "simple-js-bundle",
+  "version": "1.0.0",
+  "description": "简单的 JS 打包项目",
+  "scripts": {
+    "build": "webpack",
+    "test": "node dist/bundle.js"
+  },
+  "devDependencies": {
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

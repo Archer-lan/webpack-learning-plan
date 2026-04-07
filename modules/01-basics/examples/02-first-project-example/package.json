@@ -1,0 +1,12 @@
+{
+  "name": "02-first-project-example",
+  "version": "1.0.0",
+  "description": "第一个 Webpack 项目示例",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

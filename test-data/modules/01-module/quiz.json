@@ -1,0 +1,26 @@
+{
+  "id": "quiz-01",
+  "moduleId": "01-module",
+  "title": "模块 1 测试",
+  "questions": [
+    {
+      "id": "q1-1",
+      "type": "multiple-choice",
+      "question": "问题 1-1",
+      "correctAnswer": "A",
+      "explanation": "解析",
+      "points": 10,
+      "relatedLesson": "lesson-1"
+    },
+    {
+      "id": "q1-2",
+      "type": "true-false",
+      "question": "问题 1-2",
+      "correctAnswer": "true",
+      "explanation": "解析",
+      "points": 10,
+      "relatedLesson": "lesson-1"
+    }
+  ],
+  "passingScore": 14
+}

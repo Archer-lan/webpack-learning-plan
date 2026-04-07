@@ -1,0 +1,26 @@
+{
+  "id": "quiz-01",
+  "moduleId": "01-test-module",
+  "title": "测试题",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "什么是 webpack？",
+      "correctAnswer": "打包工具",
+      "explanation": "webpack 是一个模块打包工具",
+      "points": 10,
+      "relatedLesson": "01-basics/01-intro"
+    },
+    {
+      "id": "q2",
+      "type": "true-false",
+      "question": "webpack 只能打包 JavaScript 文件",
+      "correctAnswer": "false",
+      "explanation": "webpack 可以通过 loader 处理各种类型的文件",
+      "points": 10,
+      "relatedLesson": "01-basics/02-loaders"
+    }
+  ],
+  "passingScore": 14
+}
